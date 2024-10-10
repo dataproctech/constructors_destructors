@@ -21,17 +21,17 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
 ### Cel: Stworzenie klasy Samochód z różnymi wersjami konstruktorów, a w C++ także destruktorem.
 
 #### Wersja w C++:
-1. Stwórz klasę Samochód:
+1. Stwórz klasę `Samochód`:
   - Atrybuty:
-    - string marka
-    - string model
-    - int rokProdukcji
+    - `string marka`
+    - `string model`
+    - `int rokProdukcji`
   - Konstruktor: Przyjmujący wartości dla wszystkich atrybutów.
   - Domyślny konstruktor: Inicjalizujący atrybuty domyślnymi wartościami.
   - Destruktor: Wyświetlający komunikat "Destruktor wywołany dla: [marka] [model]".
 
 #### Wersja w Java:
-1. Stwórz klasę Samochód:
+1. Stwórz klasę `Samochód`:
   - Atrybuty:
     - String marka
     - String model
@@ -40,7 +40,7 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
   - Domyślny konstruktor: Inicjalizujący atrybuty domyślnymi wartościami.
 
 #### Do zrobienia:
-  - Zaimplementowanie klasy Samochód z konstruktorami w C++ lub Java.
+  - Zaimplementowanie klasy `Samochód` z konstruktorami w C++ lub Java.
   - W przypadku C++: Dodanie destruktora, który wyświetla komunikat o usunięciu obiektu.
   - Testowanie kodu poprzez tworzenie różnych obiektów za pomocą konstruktorów.
 
@@ -48,8 +48,8 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
 ### Cel: Zaimplementuj klasę, która przechowuje dynamicznie alokowane zasoby (np. tablice dynamiczne), wykorzystując przeciążone konstruktory oraz destruktory w C++.
 
 #### Wersja w C++:
-1. Stwórz klasę Tablica:
-  - Atrybut: wskaźnik do dynamicznej tablicy int.
+1. Stwórz klasę `Tablica`:
+  - Atrybut: wskaźnik do dynamicznej tablicy `int`.
   - Konstruktor domyślny: alokuje tablicę o wielkości 10 elementów.
   - Konstruktor z parametrem: alokuje tablicę o podanej wielkości.
   - Destruktor: zwalnia dynamiczną pamięć.
@@ -58,7 +58,7 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
 W języku Java nie ma potrzeby stosowania destruktorów do zwalniania zasobów, ponieważ tym zajmuje się garbage collector. Możesz jednak zaimplementować finalizer (choć jego użycie jest odradzane).
 
 #### Do zrobienia:
-  - Implementacja klasy Tablica w C++ lub Java.
+  - Implementacja klasy `Tablica` w C++ lub Java.
   - Testowanie działania konstruktorów i destruktorów (w przypadku C++).
   - W C++: Upewnienie się, że pamięć jest prawidłowo zwalniana po zakończeniu programu.
 
