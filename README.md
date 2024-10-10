@@ -1,5 +1,7 @@
 # Laboratorium 2: Tworzenie klas z konstruktorami i destruktorami
 
+W ramach tego laboratorium studenci nauczą się podstaw zarządzania obiektami w programowaniu obiektowym, ze szczególnym uwzględnieniem mechanizmów konstruktorów i destruktorów. 
+
 ## Cel laboratorium:
 
 - Zrozumienie roli konstruktorów i destruktorów w programowaniu obiektowym.
