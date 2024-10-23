@@ -46,7 +46,7 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
   - W przypadku C++: Dodanie destruktora, który wyświetla komunikat o usunięciu obiektu.
   - Testowanie kodu poprzez tworzenie różnych obiektów za pomocą konstruktorów.
 
-## Część 3: Zadanie 2 – Przeciążenie konstruktorów i inicjalizacja zasobów (30 minut)
+## Część 3: Zadanie 2 – Przeciążenie konstruktorów i inicjalizacja zasobów
 ### Cel: Zaimplementuj klasę, która przechowuje dynamicznie alokowane zasoby (np. tablice dynamiczne), wykorzystując przeciążone konstruktory oraz destruktory w C++.
 
 #### Wersja w C++:
@@ -60,7 +60,7 @@ Destruktor (C++): Specjalna metoda, która jest wywoływana automatycznie, gdy o
 W języku Java nie ma potrzeby stosowania destruktorów do zwalniania zasobów, ponieważ tym zajmuje się garbage collector. Możesz jednak zaimplementować finalizer (choć jego użycie jest odradzane).
 
 #### Do zrobienia:
-  - Implementacja klasy `Tablica` w C++ lub Java.
+  - Implementacja klasy `Tablica` w C++ i Java.
   - Testowanie działania konstruktorów i destruktorów (w przypadku C++).
   - W C++: Upewnienie się, że pamięć jest prawidłowo zwalniana po zakończeniu programu.
 
